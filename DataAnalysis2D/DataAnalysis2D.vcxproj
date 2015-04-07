@@ -64,7 +64,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="criticalPoints.cpp" />
+    <ClCompile Include="evaluator.cpp" />
     <ClCompile Include="intetrationLine.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="vtk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="criticalPoints.h" />
+    <ClInclude Include="evaluator.h" />
+    <ClInclude Include="geo.h" />
+    <ClInclude Include="intetrationLine.h" />
+    <ClInclude Include="vtk.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

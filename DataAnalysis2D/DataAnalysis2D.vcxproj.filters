@@ -18,5 +18,34 @@
     <ClCompile Include="intetrationLine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vtk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="criticalPoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="evaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intetrationLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vtk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="criticalPoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="geo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="evaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
