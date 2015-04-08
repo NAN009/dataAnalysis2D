@@ -9,7 +9,7 @@ typedef struct Point2D
 	int tetra;
 	double  bx, by, bw;
 	Point2D(){}
-	~Point2D()
+	~Point2D(){}
 	Point2D(double px, double py)
 	{
 		Set(px,py);
@@ -27,3 +27,10 @@ typedef struct Point2D
 	void Update(const double px, const double py);
 
 }Point2D;
+
+double EvaluateVal(const Point2D& point);
+double EvaluateGradX(const Point2D& point);
+double EvaluateGradY(const Point2D &point);
+double EvaluateGradXX(const Point2D &point);
+double EvaluateGradXY(const Point2D &point);
+double EvaluateGradYY(const Point2D &point);

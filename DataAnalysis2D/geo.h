@@ -1,5 +1,6 @@
 
 #include <vector>
+#define NORM2(x,y) (x*x+y*y)
 
 typedef struct Vector2D
 {
